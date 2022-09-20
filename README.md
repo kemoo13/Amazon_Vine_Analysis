@@ -21,11 +21,13 @@ The Amazon database for video games was loaded using PySpark. The database conta
 <img src="images/Amazon_database.jpg" width="900">
 
 Tables were then created in PostgreSQL using the following schema:
+
 <img src="images/amazon_schema.jpg" width="600">
 
 The database was further assessed for information regarding the Vine Program. This is a service in which manufacturers and publishers are allowed to receive reviews in exchange for their products. The program was broken down in to reviews that were and were not part of the Vine program, as well as what percentage of the 5 star reviews were part of the program. 
 
 The tables produced were as follows:
+
 <img src="images/customer_table.jpg" width="300"><img src="images/product_table.jpg" width="300">
 <img src="images/review_table.jpg" width="600">
 <img src="images/vine_table.jpg" width="500">
