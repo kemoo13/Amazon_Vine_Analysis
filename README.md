@@ -18,18 +18,18 @@ Amazon Review datasets
 ### Results
 
 The Amazon database for video games was loaded using PySpark. The database contained various information regarding the reviews for each video game. 
-<img src="images/Amazon_database.jpg" width="700">
+<img src="images/Amazon_database.jpg" width="900">
 
 Tables were then created in PostgreSQL using the following schema:
-<img src="images/amazon_schema.jpg" width="700">
+<img src="images/amazon_schema.jpg" width="600">
 
 The database was further assessed for information regarding the Vine Program. This is a service in which manufacturers and publishers are allowed to receive reviews in exchange for their products. The program was broken down in to reviews that were and were not part of the Vine program, as well as what percentage of the 5 star reviews were part of the program. 
 
 The tables produced were as follows:
-<img src="images/customer_table.jpg" width="700">
-<img src="images/product_table.jpg" width="700">
-<img src="images/review_table.jpg" width="700">
-<img src="images/vine_table.jpg" width="700">
+<img src="images/customer_table.jpg" width="500">
+<img src="images/product_table.jpg" width="400">
+<img src="images/review_table.jpg" width="600">
+<img src="images/vine_table.jpg" width="500">
 
 The data was then filtered to loaded in to a second Google Colaboratory notebook and the data was further filtered for reviews where the total_votes count is equal to or greater than 20. The votes were then further analyzed by finding reviews where the number of 'helpful_votes' divided by 'total_votes' is equal to or greater than 50%. The result:
 <img src="images/helpful_votes_count.jpg" width="700">
