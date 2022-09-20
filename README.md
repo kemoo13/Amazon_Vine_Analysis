@@ -18,6 +18,7 @@ Amazon Review datasets
 ### Results
 
 The Amazon database for video games was loaded using PySpark. The database contained various information regarding the reviews for each video game. 
+
 <img src="images/Amazon_database.jpg" width="900">
 
 Tables were then created in PostgreSQL using the following schema:
