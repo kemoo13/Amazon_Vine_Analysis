@@ -34,9 +34,11 @@ The tables produced were as follows:
 <img src="images/vine_table.jpg" width="500">
 
 The data was then filtered to loaded in to a second Google Colaboratory notebook and the data was further filtered for reviews where the total_votes count is equal to or greater than 20. The votes were then further analyzed by finding reviews where the number of 'helpful_votes' divided by 'total_votes' is equal to or greater than 50%. The result:
+
 <img src="images/helpful_votes_count.jpg" width="500">
 
 The number of these votes that are part of the vine program were found as follows:
+
 <img src="images/vine_program.jpg" width="700">
 
 This resulted in 94 reviews as part of the vine program. The number of reviews that were not part of the vine program were found in a similar manner, with a total of 15,663.
@@ -47,6 +49,7 @@ The total number of 5-star reviews was collected from the data and further divde
 <img src="images/paid_5_review_code.jpg" width="700">
 
 To determine if there was any bias in the Vine program, the percentage of Vine 5-star reviews and non-Vine 5-star reviews were calculated.
+
 <img src="images/percentage_reviews.jpg" width="700">
 
 ### Summary
